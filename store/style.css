@@ -37,3 +37,10 @@ footer{text-align:center;padding:32px 16px;border-top:1px solid var(--line);font
 .sticky-cta{position:fixed;bottom:0;left:0;right:0;padding:10px 16px;background:var(--bg);border-top:1px solid var(--line);display:none}
 @media (max-width:800px){.sticky-cta{display:block}}
 .legal{max-width:760px}
+.hero-media{color:var(--fg)}
+.demo-steps{display:flex;justify-content:center;gap:8px;list-style:none;padding:0;margin:12px 0 0;flex-wrap:wrap;font-size:14px;font-weight:600}
+.demo-steps li{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:6px 12px}
+.demo-steps b{color:var(--accent);margin-right:4px}
+.anatomy svg{width:100%;height:auto;display:block;color:var(--fg);max-width:760px;margin:16px auto 0}
+.anatomy .small{font-size:13px;fill:var(--muted)}
+.anatomy .small{font-size:14px}

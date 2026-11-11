@@ -46,3 +46,6 @@
   document.querySelectorAll(".brand-name").forEach(function (e) { e.textContent = C.brand; });
   document.querySelectorAll(".contact-email").forEach(function (e) { e.textContent = C.contactEmail; e.href = "mailto:" + C.contactEmail; });
 })();
+// Accessibilité : si l'utilisateur réduit les animations, on fige la démo en position "ça moud"
+(function(){var d=document.getElementById("demo");
+if(d&&window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches){d.pauseAnimations();d.setCurrentTime(3.3);}})();
