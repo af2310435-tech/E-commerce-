@@ -49,3 +49,10 @@
 // Accessibilité : si l'utilisateur réduit les animations, on fige la démo en position "ça moud"
 (function(){var d=document.getElementById("demo");
 if(d&&window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches){d.pauseAnimations();d.setCurrentTime(3.3);}})();
+// Galerie photos : remplace l'animation si des photos sont listées dans config.js
+(function(){var ph=(window.STORE_CONFIG.photos||[]);if(!ph.length)return;
+var m=document.getElementById("hero-media");
+m.innerHTML='<img class="main-photo" alt="Moulins électriques à gravité" src="'+ph[0]+'">'+
+ (ph.length>1?'<div class="thumbs">'+ph.map(function(u,i){return '<img src="'+u+'" alt="Photo '+(i+1)+'" data-i="'+i+'">';}).join("")+'</div>':"");
+m.classList.add("has-photos");
+m.querySelectorAll(".thumbs img").forEach(function(t){t.addEventListener("click",function(){m.querySelector(".main-photo").src=t.src;});});})();
