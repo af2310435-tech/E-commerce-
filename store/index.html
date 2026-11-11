@@ -3,102 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Moulin Gravity — Moulins électriques sel & poivre</title>
-<meta name="description" content="Retournez, ça moud. Set de 2 moulins électriques à gravité, avec lumière LED et rechargeables par USB-C. Livraison offerte en France.">
-<meta property="og:title" content="Moulin Gravity — Retournez, ça moud.">
-<meta property="og:description" content="Moulins électriques sel & poivre à gravité. L'idée cadeau de Noël.">
+<title>Chaleo — Chauffe-mains rechargeable</title>
+<meta name="description" content="Chauffe-mains rechargeable USB-C : chaud en quelques secondes, 3 niveaux de chaleur, se sépare en deux. L'idée cadeau de Noël. Livraison offerte en France.">
+<meta property="og:title" content="Chaleo — Fini les mains gelées cet hiver">
+<meta property="og:description" content="Chauffe-mains rechargeable, l'idée cadeau de Noël.">
 <link rel="stylesheet" href="style.css">
 <script src="config.js"></script>
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <linearGradient id="steel" x1="0" x2="1"><stop offset="0" stop-color="#7d868f"/><stop offset=".45" stop-color="#eef1f4"/><stop offset=".6" stop-color="#cfd5db"/><stop offset="1" stop-color="#6f7881"/></linearGradient>
-    <linearGradient id="head" x1="0" x2="1"><stop offset="0" stop-color="#15171a"/><stop offset=".45" stop-color="#3a3e45"/><stop offset="1" stop-color="#121417"/></linearGradient>
-    <linearGradient id="glass" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".05"/><stop offset=".3" stop-color="#fff" stop-opacity=".55"/><stop offset=".42" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a" stop-opacity=".95"/><stop offset="1" stop-color="#ffe08a" stop-opacity="0"/></linearGradient>
-    <pattern id="pepper" width="11" height="10" patternUnits="userSpaceOnUse"><rect width="11" height="10" fill="#5a3d2b"/><circle cx="3" cy="3" r="3" fill="#2b1d15"/><circle cx="8.5" cy="7.5" r="3" fill="#3a271c"/><circle cx="9" cy="1.5" r="1.6" fill="#4a3324"/></pattern>
-    <pattern id="salt" width="10" height="9" patternUnits="userSpaceOnUse"><rect width="10" height="9" fill="#e9eef2"/><rect x="1" y="1" width="4" height="3.5" rx=".8" fill="#fff" stroke="#c9d2da" stroke-width=".6"/><rect x="5.5" y="4.6" width="3.6" height="3.4" rx=".8" fill="#fff" stroke="#c9d2da" stroke-width=".6"/></pattern>
-    <!-- Moulin dessiné tête en haut, centré sur (0,0), hauteur 228 -->
-    <g id="grinder-body">
-      <rect x="-30" y="-64" width="60" height="132" rx="5" style="fill:var(--fill)"/>
-      <rect x="-30" y="-64" width="60" height="132" rx="5" fill="url(#glass)" stroke="#9aa3ad" stroke-width="1.5"/>
-      <rect x="-34" y="-72" width="68" height="10" rx="3" fill="url(#steel)"/>
-      <rect x="-32" y="-112" width="64" height="42" rx="9" fill="url(#head)"/>
-      <g stroke="#555b63" stroke-width="1.2">
-        <line x1="-24" y1="-108" x2="-24" y2="-76"/><line x1="-14" y1="-108" x2="-14" y2="-76"/><line x1="-4" y1="-108" x2="-4" y2="-76"/>
-        <line x1="6" y1="-108" x2="6" y2="-76"/><line x1="16" y1="-108" x2="16" y2="-76"/><line x1="26" y1="-108" x2="26" y2="-76"/>
-      </g>
-      <rect x="-22" y="-117" width="44" height="7" rx="3" fill="#2b2e33"/>
-      <rect x="-32" y="68" width="64" height="46" rx="8" fill="url(#steel)"/>
-      <rect x="-8" y="98" width="16" height="5" rx="2.5" fill="#22252a"/>
-    </g>
-  </defs>
-</svg>
-
-<div class="promo-bar">🎄 Offre Black Friday : <strong>jusqu'à -61 %</strong>. Fin dans <span id="countdown">—</span></div>
+<div class="promo-bar">❄️ Offre de Noël : <strong>jusqu'à -57 %</strong>. Fin dans <span id="countdown">—</span></div>
 
 <header class="site-header">
-  <a class="logo" href="#">Moulin<span>Gravity</span></a>
+  <a class="logo" href="#">Chal<span>eo</span></a>
   <nav><a href="#produit">Produit</a><a href="#faq">FAQ</a><a href="#acheter" class="btn btn-sm">Commander</a></nav>
 </header>
 
 <main>
 <section class="hero" id="produit">
   <div class="hero-media" id="hero-media">
-    <svg viewBox="0 0 400 400" role="img" aria-label="Animation : on retourne le moulin, la LED s'allume et le poivre tombe sur l'assiette" id="demo">
-      <!-- assiette + steak -->
-      <ellipse cx="170" cy="368" rx="125" ry="20" fill="#000" opacity=".08"/>
-      <ellipse cx="170" cy="360" rx="120" ry="24" fill="#fff" stroke="#d9d3ca" stroke-width="2"/>
-      <ellipse cx="170" cy="358" rx="92" ry="16" fill="#f4f1ec"/>
-      <path d="M118 356 C120 340 160 334 196 338 C228 341 236 352 224 362 C206 374 132 372 118 356 Z" fill="#8a4a2c"/>
-      <path d="M136 352 L214 346 M140 360 L210 355" stroke="#5d2f1b" stroke-width="3" stroke-linecap="round" opacity=".6"/>
-
-      <!-- faisceau LED + poivre (visibles quand retourné) -->
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.36;.4;.8;.84;1" dur="6s" repeatCount="indefinite"/>
-        <path d="M150 290 L190 290 L250 352 L90 352 Z" fill="url(#beam)" opacity=".75"/>
-        <g fill="#2b1d15">
-          <circle cx="160" cy="292" r="2.2"><animate attributeName="cy" values="292;346" dur=".7s" repeatCount="indefinite"/></circle>
-          <circle cx="172" cy="292" r="1.8"><animate attributeName="cy" values="292;348" dur=".6s" begin=".2s" repeatCount="indefinite"/></circle>
-          <circle cx="182" cy="292" r="2.4"><animate attributeName="cy" values="292;345" dur=".75s" begin=".35s" repeatCount="indefinite"/></circle>
-          <circle cx="166" cy="292" r="1.6"><animate attributeName="cy" values="292;350" dur=".65s" begin=".1s" repeatCount="indefinite"/></circle>
-          <circle cx="177" cy="292" r="2"><animate attributeName="cy" values="292;347" dur=".7s" begin=".45s" repeatCount="indefinite"/></circle>
-          <circle cx="156" cy="292" r="1.5"><animate attributeName="cy" values="292;349" dur=".8s" begin=".3s" repeatCount="indefinite"/></circle>
-        </g>
-        <text x="270" y="300" font-size="20" font-weight="800" fill="currentColor">ça moud ✨</text>
-      </g>
-
-      <!-- flèche "retournez" (visible à l'endroit) -->
-      <g opacity="1" fill="none" stroke="var(--accent)" stroke-width="4" stroke-linecap="round">
-        <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;.18;.24;.9;.96;1" dur="6s" repeatCount="indefinite"/>
-        <path d="M232 70 A90 90 0 0 1 240 230"/>
-        <path d="M228 222 L240 232 L252 220"/>
-        <text x="252" y="150" font-size="20" font-weight="800" fill="currentColor" stroke="none">Retournez</text>
-      </g>
-
-      <!-- moulin poivre animé -->
-      <g transform="translate(170 172)">
-        <g style="--fill:url(#pepper)">
-          <animateTransform attributeName="transform" type="rotate" values="0;0;180;180;0;0" keyTimes="0;.2;.36;.8;.95;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.5 0 .3 1;0 0 1 1;.5 0 .3 1;0 0 1 1"/>
-          <use href="#grinder-body"/>
-          <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.36;.4;.8;.84;1" dur="6s" repeatCount="indefinite"/>
-            <rect x="-22" y="-119" width="44" height="6" rx="3" fill="#ffe08a"/></g>
-        </g>
-      </g>
-    </svg>
-    <ol class="demo-steps"><li><b>1</b> Retournez</li><li><b>2</b> Ça moud + LED</li><li><b>3</b> Reposez : stop</li></ol>
+    <!-- Remplacé automatiquement par les vraies photos listées dans config.js (photos: [...]) -->
+    <div class="photo-placeholder">
+      <span>📷</span>
+      <strong>Photo du produit</strong>
+      <small>Ajoute tes photos dans <code>store/assets/</code> et liste-les dans <code>config.js</code></small>
+    </div>
   </div>
   <div class="hero-copy">
-    <p class="eyebrow">Le gadget cuisine qu'on vous piquera à table</p>
-    <h1>Retournez,<br>ça moud.</h1>
-    <p class="lead">Set de 2 moulins <strong>électriques à gravité</strong> pour le sel et le poivre. Il suffit de les retourner pour qu'ils moulent, et une lumière LED éclaire l'assiette. Aucun bouton, et une seule main suffit.</p>
+    <p class="eyebrow">L'idée cadeau de Noël qui sert tout l'hiver</p>
+    <h1>Fini les mains gelées.</h1>
+    <p class="lead">Un chauffe-mains <strong>rechargeable</strong>, chaud en quelques secondes, qui tient dans la poche. Il se sépare en <strong>deux moitiés aimantées</strong> : une pour chaque main, ou une à partager.</p>
     <ul class="bullets">
-      <li>⚡ Rechargeable par USB-C : <strong>plus besoin de piles</strong></li>
-      <li>⚙️ Meule céramique réglable, du fin au gros</li>
-      <li>💡 Lumière LED pour doser précisément</li>
-      <li>🎁 Coffret prêt à offrir</li>
+      <li>🔥 Chaud en quelques secondes, avec <strong>3 niveaux de chaleur</strong></li>
+      <li>🔋 Rechargeable par USB-C, <strong>sans piles ni sachets jetables</strong></li>
+      <li>📱 Fait aussi batterie de secours pour le téléphone</li>
+      <li>🎁 Livré dans un coffret prêt à offrir</li>
     </ul>
     <a href="#acheter" class="btn btn-lg">Je profite de l'offre</a>
     <p class="reassure">🚚 Livraison offerte · ↩️ 30 jours pour changer d'avis · 🔒 Paiement sécurisé</p>
@@ -106,48 +45,37 @@
 </section>
 
 <section class="features">
-  <div class="feature"><h3>Une seule main</h3><p>Vous remuez la poêle d'une main et vous assaisonnez de l'autre. Le moulin s'arrête tout seul quand vous le reposez.</p></div>
-  <div class="feature"><h3>Fini les piles</h3><p>Le moulin se recharge par USB-C, comme votre téléphone. Une charge dure plusieurs semaines en usage normal.</p></div>
-  <div class="feature"><h3>Mouture réglable</h3><p>La molette sous le moulin règle la mouture, du poivre très fin au gros sel pour les grillades.</p></div>
-  <div class="feature"><h3>Beau sur la table</h3><p>Le corps en inox brossé et la fenêtre transparente montrent le niveau restant. C'est un objet qu'on a envie de laisser sur la table.</p></div>
-</section>
-
-<section class="anatomy">
-  <h2>Ce que vous recevez</h2>
-  <p class="sub">2 moulins (un pour le sel, un pour le poivre), 1 câble USB-C et le coffret cadeau</p>
-  <svg viewBox="0 0 520 320" role="img" aria-label="Schéma du moulin avec ses éléments">
-    <g transform="translate(70 150)" style="--fill:url(#pepper)"><use href="#grinder-body"/></g>
-    <g transform="translate(165 150)" style="--fill:url(#salt)"><use href="#grinder-body"/></g>
-    <g fill="currentColor" font-size="17" font-weight="700" text-anchor="middle"><text x="70" y="300">Poivre</text><text x="165" y="300">Sel</text></g>
-    <g stroke="var(--muted)" stroke-width="1.5" fill="none">
-      <path d="M197 58 H250"/><path d="M199 83 H250"/><path d="M195 150 H250"/><path d="M197 241 H250"/>
-    </g>
-    <g fill="currentColor" font-size="17">
-      <text x="258" y="54" font-weight="700">Meule céramique + LED</text>
-      <text x="258" y="88" font-weight="700">Molette de réglage</text>
-      <text x="258" y="146" font-weight="700">Réservoir transparent</text>
-      <text x="258" y="166" class="small">on voit le niveau</text>
-      <text x="258" y="237" font-weight="700">Batterie USB-C</text>
-      <text x="258" y="257" class="small">rechargeable, sans piles</text>
-    </g>
-  </svg>
+  <div class="feature"><h3>Pour qui ?</h3><p>Pour ceux qui attendent le bus ou vont au stade, pour les promenades avec le chien, les marchés de Noël et le ski. Et pour tous ceux qui ont toujours froid aux mains.</p></div>
+  <div class="feature"><h3>Fini les sachets jetables</h3><p>Une charge remplace des dizaines de chaufferettes à usage unique. C'est plus économique et sans déchets.</p></div>
+  <div class="feature"><h3>Deux en un</h3><p>Les deux moitiés aimantées se séparent : glissez-en une dans chaque poche, ou prêtez-en une à la personne qui vous accompagne.</p></div>
+  <div class="feature"><h3>Sécurisé</h3><p>Le chauffe-mains coupe automatiquement en cas de surchauffe. La coque est douce au toucher et ne brûle pas.</p></div>
 </section>
 
 <section class="offer" id="acheter">
   <h2>Choisissez votre offre</h2>
-  <p class="sub">Plus vous en prenez, moins chaque set vous coûte. Pensez à ceux que vous gâtez à Noël.</p>
+  <p class="sub">Une paire pour vous, une à glisser sous le sapin. Plus vous en prenez, moins chacune vous coûte.</p>
   <div class="offers" id="offers"></div>
   <button class="btn btn-lg btn-block" id="checkout">Commander maintenant</button>
-  <p class="reassure">Carte bancaire, Apple Pay et Google Pay acceptés · Expédition sous 24 à 72 h</p>
+  <p class="reassure">Carte bancaire, Apple Pay et Google Pay acceptés · Commandez avant le <strong>15 décembre</strong> pour être livré avant Noël</p>
 </section>
 
 <section class="steps">
   <h2>Comment ça marche</h2>
   <ol>
-    <li><strong>Remplissez</strong> : dévissez le haut et versez le sel ou le poivre en grains.</li>
-    <li><strong>Retournez</strong> : le moulin démarre et la LED s'allume.</li>
-    <li><strong>Reposez</strong> : le moulin s'arrête. Rien de plus à faire.</li>
+    <li><strong>Allumez</strong> : appui long sur le bouton, il chauffe en quelques secondes.</li>
+    <li><strong>Réglez</strong> : choisissez doux, moyen ou fort.</li>
+    <li><strong>Rechargez</strong> : branchez-le en USB-C, comme votre téléphone.</li>
   </ol>
+</section>
+
+<section class="kit">
+  <h2>Dans le coffret</h2>
+  <ul class="kit-list">
+    <li>2 moitiés chauffantes aimantées</li>
+    <li>1 câble USB-C</li>
+    <li>1 dragonne</li>
+    <li>1 coffret cadeau</li>
+  </ul>
 </section>
 
 <section class="reviews">
@@ -158,22 +86,23 @@
 
 <section class="faq" id="faq">
   <h2>Questions fréquentes</h2>
-  <details><summary>Combien de temps dure une charge ?</summary><p>Plusieurs semaines en usage quotidien normal. La recharge complète par USB-C prend environ 2 heures. Le câble est fourni.</p></details>
-  <details><summary>Peut-on mettre du gros sel ?</summary><p>Oui. La meule céramique accepte le gros sel sec, le poivre en grains et les baies. Évitez le sel humide.</p></details>
-  <details><summary>Quels sont les délais de livraison ?</summary><p>Comptez 3 à 7 jours ouvrés en France métropolitaine et en Belgique. Vous recevez un numéro de suivi par email.</p></details>
-  <details><summary>Et si ça ne me plaît pas ?</summary><p>Vous avez 30 jours pour nous le retourner et être remboursé. Il suffit d'écrire au service client.</p></details>
-  <details><summary>Est-ce lavable ?</summary><p>Essuyez l'extérieur avec un chiffon humide. Ne le plongez pas dans l'eau, car il contient de l'électronique.</p></details>
+  <!-- ⚠️ Vérifie autonomie, température et temps de charge sur la fiche du fournisseur avant le lancement -->
+  <details><summary>Combien de temps ça chauffe ?</summary><p>Plusieurs heures avec une charge, selon le niveau choisi : plus longtemps en mode doux, moins en mode fort. La recharge complète par USB-C prend quelques heures.</p></details>
+  <details><summary>Est-ce que ça brûle ?</summary><p>Non. La chaleur reste agréable, et l'appareil se coupe automatiquement en cas de surchauffe. Ne l'utilisez pas en contact direct prolongé avec la peau pendant le sommeil.</p></details>
+  <details><summary>Est-ce que je serai livré avant Noël ?</summary><p>Oui, si vous commandez avant le 15 décembre, pour la France métropolitaine et la Belgique. Comptez 3 à 7 jours ouvrés, avec un numéro de suivi envoyé par email.</p></details>
+  <details><summary>Et si ça ne plaît pas à la personne à qui je l'offre ?</summary><p>Vous avez 30 jours après réception pour nous le retourner, même après Noël, et être remboursé.</p></details>
+  <details><summary>Peut-on l'emporter en avion ?</summary><p>Oui en cabine, comme une batterie externe. Ne le mettez pas en soute.</p></details>
 </section>
 
 <section class="final-cta">
-  <h2>L'offre se termine bientôt</h2>
-  <a href="#acheter" class="btn btn-lg">Je commande mon set</a>
+  <h2>L'hiver ne fait que commencer</h2>
+  <a href="#acheter" class="btn btn-lg">Je commande mon chauffe-mains</a>
 </section>
 </main>
 
 <footer>
   <p><a href="legal/mentions-legales.html">Mentions légales</a> · <a href="legal/cgv.html">CGV</a> · <a href="legal/retours.html">Retours & remboursements</a> · <a href="legal/confidentialite.html">Confidentialité</a></p>
-  <p class="muted">© 2026 <span class="brand-name">Moulin Gravity</span> · Contact : <a class="contact-email" href="#"></a></p>
+  <p class="muted">© 2026 <span class="brand-name">Chaleo</span> · Contact : <a class="contact-email" href="#"></a></p>
 </footer>
 
 <div class="sticky-cta"><a href="#acheter" class="btn btn-block">Commander : dès <span id="from-price"></span></a></div>

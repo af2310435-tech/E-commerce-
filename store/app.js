@@ -1,7 +1,7 @@
 (function () {
   var C = window.STORE_CONFIG;
   var fmt = function (n) { return n.toFixed(2).replace(".", ",") + " €"; };
-  var selected = "double";
+  var selected = C.defaultOffer || Object.keys(C.offers)[0];
 
   // Offres
   var wrap = document.getElementById("offers");
@@ -23,7 +23,7 @@
     wrap.appendChild(el);
   });
 
-  document.getElementById("from-price").textContent = fmt(C.offers.duo.price);
+  document.getElementById("from-price").textContent = fmt(C.offers[Object.keys(C.offers)[0]].price);
 
   // Checkout → Stripe Payment Link
   document.getElementById("checkout").addEventListener("click", function () {
@@ -46,13 +46,10 @@
   document.querySelectorAll(".brand-name").forEach(function (e) { e.textContent = C.brand; });
   document.querySelectorAll(".contact-email").forEach(function (e) { e.textContent = C.contactEmail; e.href = "mailto:" + C.contactEmail; });
 })();
-// Accessibilité : si l'utilisateur réduit les animations, on fige la démo en position "ça moud"
-(function(){var d=document.getElementById("demo");
-if(d&&window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches){d.pauseAnimations();d.setCurrentTime(3.3);}})();
 // Galerie photos : remplace l'animation si des photos sont listées dans config.js
 (function(){var ph=(window.STORE_CONFIG.photos||[]);if(!ph.length)return;
 var m=document.getElementById("hero-media");
-m.innerHTML='<img class="main-photo" alt="Moulins électriques à gravité" src="'+ph[0]+'">'+
+m.innerHTML='<img class="main-photo" alt="Photo du produit" src="'+ph[0]+'">'+
  (ph.length>1?'<div class="thumbs">'+ph.map(function(u,i){return '<img src="'+u+'" alt="Photo '+(i+1)+'" data-i="'+i+'">';}).join("")+'</div>':"");
 m.classList.add("has-photos");
 m.querySelectorAll(".thumbs img").forEach(function(t){t.addEventListener("click",function(){m.querySelector(".main-photo").src=t.src;});});})();

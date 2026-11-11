@@ -1,32 +1,30 @@
 # Publicités : TikTok, Reels et Meta
 
 ## 5 accroches (les 2 premières secondes)
-1. « Mon beau-père a cru que c'était de la magie. » → on retourne le moulin, la LED s'allume.
-2. « Arrête de tourner ton moulin comme en 1950. »
-3. « Le cadeau à 30 € qui fait le plus d'effet à Noël. »
-4. POV : tu cuisines d'une main et tu assaisonnes de l'autre.
-5. ASMR : gros plan sur le poivre qui tombe sous la lumière LED, sans voix.
+1. « POV : tu attends le bus à -2 °C, mais t'as pas froid. » → on sort le chauffe-mains de la poche.
+2. Caméra thermique (ou filtre) : les mains passent du bleu au rouge.
+3. « Le cadeau à moins de 30 € que tout le monde va te piquer. »
+4. « J'ai arrêté d'acheter des chaufferettes jetables. » → on le sépare en deux moitiés aimantées.
+5. Marché de Noël : tu en tends une moitié à ta copine ou ton copain, et sa réaction.
 
 ## Script vidéo UGC (20 s)
 | Temps | Image | Texte / voix |
 |---|---|---|
-| 0–2 s | Gros plan : on retourne le moulin, la LED s'allume sur un steak | Accroche n° 1 |
-| 2–7 s | Une main remue la poêle, l'autre assaisonne | « Une seule main, pas de bouton. » |
-| 7–12 s | Branchement USB-C, puis réglage de la molette | « Rechargeable, mouture réglable. » |
-| 12–16 s | Coffret cadeau ouvert sous le sapin | « L'idée cadeau qui plaît à tout le monde. » |
-| 16–20 s | Texte : « -61 % Black Friday, livraison offerte » | « Lien en bio, avant la fin de l'offre. » |
-
-Filme avec **ton propre échantillon**. Les vidéos du fournisseur sont souvent déjà utilisées par des dizaines de boutiques.
+| 0–2 s | Extérieur froid, buée, mains rouges | Accroche n° 1 |
+| 2–7 s | On allume le chauffe-mains, la LED indique le niveau, on le prend en main | « Chaud en quelques secondes, 3 niveaux. » |
+| 7–11 s | On le sépare en deux moitiés aimantées, une dans chaque poche | « Une pour chaque main, ou une à partager. » |
+| 11–15 s | On le branche en USB-C, puis on recharge un téléphone avec | « Rechargeable, et ça sert même de batterie. » |
+| 15–20 s | Coffret sous le sapin, texte « -57 % Noël, livraison offerte » | « Lien en bio, commandez avant le 15 déc. » |
 
 ## Texte d'annonce Meta
-> Retournez, ça moud. 🧂✨
-> Nos moulins électriques à gravité s'activent tout seuls, éclairent votre assiette et se rechargent par USB-C.
-> 🎁 L'idée cadeau de Noël à moins de 35 €
-> 🚚 Livraison offerte · ↩️ 30 jours pour changer d'avis
-> 👉 Offre Black Friday : jusqu'à -61 %
+> Fini les mains gelées cet hiver 🧤🔥
+> Chaud en quelques secondes, rechargeable par USB-C, il se sépare en deux pour vos deux mains.
+> 🎁 L'idée cadeau de Noël à moins de 30 €
+> 🚚 Livraison offerte, reçu avant Noël si vous commandez avant le 15/12
+> 👉 Offre de Noël : jusqu'à -57 %
 
 ## Ciblage et budget de test
-- **Meta** : France et Belgique, 25-60 ans, ciblage large (Advantage+), objectif Achat. 3 vidéos × 1 ensemble de publicités, à **20 €/jour pendant 3 jours**.
-- **TikTok** : 25-55 ans, Spark Ads sur tes propres posts organiques, **20 €/jour**.
-- En parallèle, gratuitement : poste 2 ou 3 vidéos par jour sur un compte TikTok et Instagram dédié. Le contenu organique peut suffire à valider le produit.
-- **Budget de test total recommandé : 150 à 200 €.**
+- **Meta** : France et Belgique, 25-60 ans, ciblage large (Advantage+), objectif Achat, 3 vidéos à **20 €/jour pendant 3 jours**.
+- **TikTok** : 20-50 ans, Spark Ads, **20 €/jour**.
+- En organique : 2 ou 3 vidéos par jour sur un compte dédié.
+- **Budget de test total : 150 à 200 €.** Lance-le **le plus tôt possible**, car la fenêtre de Noël est courte.

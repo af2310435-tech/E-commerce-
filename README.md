@@ -1,7 +1,7 @@
-# Moulin Gravity — boutique e-commerce
+# Chaleo — boutique e-commerce
 
-Produit choisi : **set de 2 moulins électriques à gravité (sel & poivre)**, avec lumière LED et rechargeables par USB.
-Marché visé : France et Belgique, pour les ventes de Black Friday et de Noël 2026.
+Produit choisi : **chauffe-mains rechargeable USB-C**, en deux moitiés aimantées, qui fait aussi batterie de secours.
+Marché visé : France et Belgique, pour Noël 2026 et tout l'hiver (de novembre à février).
 
 | Dossier | Contenu |
 |---|---|
@@ -20,4 +20,5 @@ cd store && python3 -m http.server 8000
 ## Mise en ligne rapide
 1. Crée un lien de paiement Stripe (ou Shopify), puis colle-le dans `store/config.js`.
 2. Déploie le dossier `store/` sur Netlify Drop, Vercel ou GitHub Pages.
-3. Suis `docs/04-checklist-lancement.md`.
+3. Ajoute les vraies photos du produit dans `store/assets/` et liste-les dans `config.js` (`photos: [...]`).
+4. Suis `docs/04-checklist-lancement.md`.
