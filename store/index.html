@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moulin Gravity — Moulins électriques sel & poivre</title>
+<meta name="description" content="Retournez, ça moud. Set de 2 moulins électriques à gravité, avec lumière LED et rechargeables par USB-C. Livraison offerte en France.">
+<meta property="og:title" content="Moulin Gravity — Retournez, ça moud.">
+<meta property="og:description" content="Moulins électriques sel & poivre à gravité. L'idée cadeau de Noël.">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+</head>
+<body>
+
+<div class="promo-bar">🎄 Offre Black Friday : <strong>jusqu'à -61 %</strong>. Fin dans <span id="countdown">—</span></div>
+
+<header class="site-header">
+  <a class="logo" href="#">Moulin<span>Gravity</span></a>
+  <nav><a href="#produit">Produit</a><a href="#faq">FAQ</a><a href="#acheter" class="btn btn-sm">Commander</a></nav>
+</header>
+
+<main>
+<section class="hero" id="produit">
+  <div class="hero-media">
+    <!-- Remplace par une vraie photo ou un GIF du produit : assets/hero.jpg -->
+    <svg viewBox="0 0 300 300" role="img" aria-label="Deux moulins électriques à gravité">
+      <defs>
+        <linearGradient id="steel" x1="0" x2="1"><stop offset="0" stop-color="#9aa3ad"/><stop offset=".5" stop-color="#e9edf1"/><stop offset="1" stop-color="#8a939c"/></linearGradient>
+        <radialGradient id="glow" cx=".5" cy="0" r="1"><stop offset="0" stop-color="#ffe9a8" stop-opacity=".9"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/></radialGradient>
+      </defs>
+      <ellipse cx="150" cy="280" rx="120" ry="10" fill="#000" opacity=".12"/>
+      <g transform="translate(70 40)"><rect x="0" y="0" width="60" height="70" rx="10" fill="#1d1f23"/><rect x="4" y="70" width="52" height="130" rx="6" fill="url(#steel)"/><rect x="10" y="80" width="40" height="90" rx="4" fill="#fff" opacity=".35"/><rect x="8" y="200" width="44" height="18" rx="4" fill="#1d1f23"/><path d="M0 218 L60 218 L90 262 L-30 262 Z" fill="url(#glow)"/></g>
+      <g transform="translate(170 40)"><rect x="0" y="0" width="60" height="70" rx="10" fill="#1d1f23"/><rect x="4" y="70" width="52" height="130" rx="6" fill="url(#steel)"/><rect x="10" y="80" width="40" height="90" rx="4" fill="#222" opacity=".35"/><rect x="8" y="200" width="44" height="18" rx="4" fill="#1d1f23"/></g>
+    </svg>
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow">Le gadget cuisine qu'on vous piquera à table</p>
+    <h1>Retournez,<br>ça moud.</h1>
+    <p class="lead">Set de 2 moulins <strong>électriques à gravité</strong> pour le sel et le poivre. Il suffit de les retourner pour qu'ils moulent, et une lumière LED éclaire l'assiette. Aucun bouton, et une seule main suffit.</p>
+    <ul class="bullets">
+      <li>⚡ Rechargeable par USB-C : <strong>plus besoin de piles</strong></li>
+      <li>⚙️ Meule céramique réglable, du fin au gros</li>
+      <li>💡 Lumière LED pour doser précisément</li>
+      <li>🎁 Coffret prêt à offrir</li>
+    </ul>
+    <a href="#acheter" class="btn btn-lg">Je profite de l'offre</a>
+    <p class="reassure">🚚 Livraison offerte · ↩️ 30 jours pour changer d'avis · 🔒 Paiement sécurisé</p>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature"><h3>Une seule main</h3><p>Vous remuez la poêle d'une main et vous assaisonnez de l'autre. Le moulin s'arrête tout seul quand vous le reposez.</p></div>
+  <div class="feature"><h3>Fini les piles</h3><p>Le moulin se recharge par USB-C, comme votre téléphone. Une charge dure plusieurs semaines en usage normal.</p></div>
+  <div class="feature"><h3>Mouture réglable</h3><p>La molette sous le moulin règle la mouture, du poivre très fin au gros sel pour les grillades.</p></div>
+  <div class="feature"><h3>Beau sur la table</h3><p>Le corps en inox brossé et la fenêtre transparente montrent le niveau restant. C'est un objet qu'on a envie de laisser sur la table.</p></div>
+</section>
+
+<section class="offer" id="acheter">
+  <h2>Choisissez votre offre</h2>
+  <p class="sub">Plus vous en prenez, moins chaque set vous coûte. Pensez à ceux que vous gâtez à Noël.</p>
+  <div class="offers" id="offers"></div>
+  <button class="btn btn-lg btn-block" id="checkout">Commander maintenant</button>
+  <p class="reassure">Carte bancaire, Apple Pay et Google Pay acceptés · Expédition sous 24 à 72 h</p>
+</section>
+
+<section class="steps">
+  <h2>Comment ça marche</h2>
+  <ol>
+    <li><strong>Remplissez</strong> : dévissez le haut et versez le sel ou le poivre en grains.</li>
+    <li><strong>Retournez</strong> : le moulin démarre et la LED s'allume.</li>
+    <li><strong>Reposez</strong> : le moulin s'arrête. Rien de plus à faire.</li>
+  </ol>
+</section>
+
+<section class="reviews">
+  <h2>Avis clients</h2>
+  <!-- N'affiche ici QUE de vrais avis (Judge.me, Trustpilot...). Les faux avis sont illégaux en France (DGCCRF). -->
+  <p class="muted">Les premiers avis de nos clients apparaîtront ici.</p>
+</section>
+
+<section class="faq" id="faq">
+  <h2>Questions fréquentes</h2>
+  <details><summary>Combien de temps dure une charge ?</summary><p>Plusieurs semaines en usage quotidien normal. La recharge complète par USB-C prend environ 2 heures. Le câble est fourni.</p></details>
+  <details><summary>Peut-on mettre du gros sel ?</summary><p>Oui. La meule céramique accepte le gros sel sec, le poivre en grains et les baies. Évitez le sel humide.</p></details>
+  <details><summary>Quels sont les délais de livraison ?</summary><p>Comptez 3 à 7 jours ouvrés en France métropolitaine et en Belgique. Vous recevez un numéro de suivi par email.</p></details>
+  <details><summary>Et si ça ne me plaît pas ?</summary><p>Vous avez 30 jours pour nous le retourner et être remboursé. Il suffit d'écrire au service client.</p></details>
+  <details><summary>Est-ce lavable ?</summary><p>Essuyez l'extérieur avec un chiffon humide. Ne le plongez pas dans l'eau, car il contient de l'électronique.</p></details>
+</section>
+
+<section class="final-cta">
+  <h2>L'offre se termine bientôt</h2>
+  <a href="#acheter" class="btn btn-lg">Je commande mon set</a>
+</section>
+</main>
+
+<footer>
+  <p><a href="legal/mentions-legales.html">Mentions légales</a> · <a href="legal/cgv.html">CGV</a> · <a href="legal/retours.html">Retours & remboursements</a> · <a href="legal/confidentialite.html">Confidentialité</a></p>
+  <p class="muted">© 2026 <span class="brand-name">Moulin Gravity</span> · Contact : <a class="contact-email" href="#"></a></p>
+</footer>
+
+<div class="sticky-cta"><a href="#acheter" class="btn btn-block">Commander : dès <span id="from-price"></span></a></div>
+
+<script src="app.js"></script>
+</body>
+</html>
